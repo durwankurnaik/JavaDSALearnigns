@@ -1,6 +1,8 @@
 package com.company;
 // https://leetcode.com/problems/missing-number/
 // This werks, and solely done by me. But it's a Easy question.
+// Actually I wasn't able to solve this question, but I heard somewhere the word 'sorting' and it clicked my mind.
+// I was having the problem with this that it was unsorted array. Then I just sorted it out, and the problem was solved.
 
 
 import java.util.Arrays;
