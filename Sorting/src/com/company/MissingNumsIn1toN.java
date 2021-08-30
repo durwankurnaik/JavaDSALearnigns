@@ -1,32 +1,22 @@
 package com.company;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class MissingNumsIn1toN {
     public static void main(String[] args) {
-        int[] arr =  {4, 3, 2, 7, 8, 2, 3, 1};
+        int[] arr =  {1,1};
 
-        System.out.println(Arrays.toString(missing(arr)));
+        System.out.println(missing(arr));
     }
 
 
-    static int[] missing(int[] arr) {
+    static ArrayList<Integer> missing(int[] arr) {
         cyclicSort(arr);
 
-        int count = 0;
+        ArrayList<Integer> ans_arr = new ArrayList<>();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != i + 1) {
-                count++;
-            }
-        }
-        int[] ans_arr = new int[count];
-
-        count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] != i + 1) {
-                count++;
-                ans_arr[count - 1] = i + 1;
+                ans_arr.add(i + 1);
             }
         }
         return ans_arr;
