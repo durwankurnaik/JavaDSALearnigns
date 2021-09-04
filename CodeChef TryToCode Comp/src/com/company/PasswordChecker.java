@@ -1,5 +1,6 @@
 package com.company;
 
+// The worst code I ever written, but it worked.
 public class PasswordChecker {
 
     public static void main(String[] args) {
