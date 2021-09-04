@@ -1,5 +1,6 @@
 package com.company;
 
+// Didn't had time to think about this problem.
 public class PhineasRecurringTask {
     public static void main(String[] args) {
         System.out.println(conditionChecker("DDBBCCCBBEZ"));
