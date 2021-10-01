@@ -3,13 +3,22 @@ package com.company;
 public class FibonacciNums {
 
     public static void main(String[] args) {
-        System.out.println(fibOfNum(6));
-    }
+//        System.out.println(fibOfNum(6));
 
-    static int fibOfNum(int num) {
-        if (num < 2) {
-            return num;
+//        Iterative Method to solve.
+        int num0 = 0, num1 = 1, n = 5, ans = 0;
+        for (int i = 1; i <= n; i++) {
+            ans = num0 + num1;
+            num0 = num1;
+            num1 = ans;
         }
-        return fibOfNum(num - 1) + fibOfNum(num - 2);
+        System.out.println(ans);
     }
+//    Recursive method to solve.
+//    static int fibOfNum(int num) {
+//        if (num < 2) {
+//            return num;
+//        }
+//        return fibOfNum(num - 1) + fibOfNum(num - 2);
+//    }
 }
