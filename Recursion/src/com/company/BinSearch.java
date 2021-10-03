@@ -3,7 +3,7 @@ package com.company;
 public class BinSearch {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 88, 99, 169};
-        int target = 69;
+        int target = 9;
 
         System.out.println(search(arr, target, 0, arr.length - 1));
     }

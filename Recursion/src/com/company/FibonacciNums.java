@@ -6,7 +6,7 @@ public class FibonacciNums {
 //        System.out.println(fibOfNum(6));
 
 //        Iterative Method to solve.
-        int num0 = 0, num1 = 1, n = 5, ans = 0;
+        int num0 = 0, num1 = 1, n = 46, ans = 0;
         for (int i = 1; i <= n; i++) {
             ans = num0 + num1;
             num0 = num1;
