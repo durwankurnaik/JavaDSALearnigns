@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2411b5c6-c3d2-481d-9206-fc584f91529c" name="Changes" comment="">
+    <list default="true" id="2411b5c6-c3d2-481d-9206-fc584f91529c" name="Changes" comment="After doing some questions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Strings/com/company/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/com/company/ValidPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Strings/com/company/SentenceSimilarity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/com/company/SentenceSimilarity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/SentenceSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SentenceSimilarity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,20 +98,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.SentenceSimilarity">
-    <configuration name="EquivStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.EquivStrings" />
-      <module name="Strings" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShiftingLetters">
     <configuration name="ImplementingstrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.ImplementingstrStr" />
       <module name="Strings" />
@@ -124,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ReversingString" />
+    <configuration name="MinLengthofStringAfterDeletingSimilarEnds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.MinLengthofStringAfterDeletingSimilarEnds" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -139,6 +127,19 @@
     </configuration>
     <configuration name="SentenceSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.SentenceSimilarity" />
+      <module name="Strings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiftingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ShiftingLetters" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShiftingLetters" />
+        <item itemvalue="Application.MinLengthofStringAfterDeletingSimilarEnds" />
         <item itemvalue="Application.SentenceSimilarity" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ImplementingstrStr" />
-        <item itemvalue="Application.EquivStrings" />
-        <item itemvalue="Application.ReversingString" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +183,42 @@
       <option name="presentableId" value="Default" />
       <updated>1632735691733</updated>
     </task>
+    <task id="LOCAL-00001" summary="After doing some questions.">
+      <created>1633526899957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633526899958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="add" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="After doing some questions." />
+    <option name="LAST_COMMIT_MESSAGE" value="After doing some questions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -194,8 +230,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/SentenceSimilarity.java</url>
-          <line>24</line>
+          <line>25</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/MinLengthofStringAfterDeletingSimilarEnds.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/ShiftingLetters.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/ValidPalindrome.java</url>

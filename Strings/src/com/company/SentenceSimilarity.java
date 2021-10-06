@@ -7,8 +7,8 @@ package com.company;
 
 public class SentenceSimilarity {
     public static void main(String[] args) {
-        String sentence1 = "My name is Haley";
-        String sentence2 = "My Haley";
+        String sentence1 = "Lucccky";
+        String sentence2 = "Lucccky";
 
         System.out.println(areSentencesSimilar(sentence1, sentence2));
     }
