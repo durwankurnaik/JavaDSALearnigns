@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2411b5c6-c3d2-481d-9206-fc584f91529c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Complexities/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Complexities/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Complexities/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Complexities/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Strings/com/company/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/com/company/ValidPalindrome.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.ValidPalindrome">
+  <component name="RunManager" selected="Application.SentenceSimilarity">
     <configuration name="EquivStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.EquivStrings" />
       <module name="Strings" />
@@ -138,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringHalvesAreAlike" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.StringHalvesAreAlike" />
+    <configuration name="SentenceSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SentenceSimilarity" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SentenceSimilarity" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.ImplementingstrStr" />
         <item itemvalue="Application.EquivStrings" />
         <item itemvalue="Application.ReversingString" />
-        <item itemvalue="Application.StringHalvesAreAlike" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +191,11 @@
           <url>file://$PROJECT_DIR$/src/com/company/StringHalvesAreAlike.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/SentenceSimilarity.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/ValidPalindrome.java</url>
