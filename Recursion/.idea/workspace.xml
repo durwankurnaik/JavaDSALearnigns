@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Recursion/com/company/Primes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/com/company/Primes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Strings/out/production/Strings/com/company/ShiftingLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/out/production/Strings/com/company/ShiftingLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Strings/src/com/company/ShiftingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/src/com/company/ShiftingLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion/com/company/RecursiveBubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/com/company/RecursiveBubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RecursiveBubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RecursiveBubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +89,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.RecursiveBubbleSort">
-    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.BinSearch" />
-      <module name="Recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SelectionSortRevision">
     <configuration name="LeetCodeFibNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeFibNums" />
       <module name="Recursion" />
@@ -144,6 +129,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SelectionSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SelectionSortRevision" />
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumTriangleFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.SumTriangleFromArray" />
       <module name="Recursion" />
@@ -159,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSortRevision" />
         <item itemvalue="Application.RecursiveBubbleSort" />
         <item itemvalue="Application.LeetCodeFibNums" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.SumTriangleFromArray" />
-        <item itemvalue="Application.BinSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +198,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/SelectionSortRevision.java</url>
+          <line>11</line>
+          <properties class="com.company.SelectionSortRevision" method="selectionSort">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
