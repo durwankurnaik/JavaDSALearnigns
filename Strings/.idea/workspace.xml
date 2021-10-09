@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2411b5c6-c3d2-481d-9206-fc584f91529c" name="Changes" comment="After doing some questions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Strings/com/company/SentenceSimilarity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/com/company/SentenceSimilarity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/SentenceSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SentenceSimilarity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ShiftingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ShiftingLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +94,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recursion" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.ShiftingLetters">
-    <configuration name="ImplementingstrStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ImplementingstrStr" />
+  <component name="RunManager" selected="Application.BasicCalculator">
+    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BasicCalculator" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ValidPalindrome" />
+    <configuration name="ShiftingLettersSoln" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ShiftingLettersSoln" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.ShiftingLettersSoln" />
         <item itemvalue="Application.ShiftingLetters" />
         <item itemvalue="Application.MinLengthofStringAfterDeletingSimilarEnds" />
         <item itemvalue="Application.SentenceSimilarity" />
-        <item itemvalue="Application.ValidPalindrome" />
-        <item itemvalue="Application.ImplementingstrStr" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +214,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="After doing some questions." />
@@ -240,8 +240,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/ShiftingLetters.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="18" />
+          <line>22</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/ValidPalindrome.java</url>
@@ -250,6 +250,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/ShiftingLettersSoln.java</url>
+          <line>11</line>
+          <properties class="com.company.ShiftingLettersSoln" method="shiftingLetters">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

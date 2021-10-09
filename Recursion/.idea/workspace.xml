@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="" />
+    <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Recursion/com/company/Primes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Recursion/com/company/Primes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/out/production/Strings/com/company/ShiftingLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/out/production/Strings/com/company/ShiftingLetters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/com/company/ShiftingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/src/com/company/ShiftingLetters.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,9 +89,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Complexities" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.BinSearch">
+  <component name="RunManager" selected="Application.RecursiveBubbleSort">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BinSearch" />
       <module name="Recursion" />
@@ -99,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Factorial" />
+    <configuration name="LeetCodeFibNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeFibNums" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -112,18 +118,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.FibonacciNums" />
+    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.RecursiveBubbleSort" />
       <module name="Recursion" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Primes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Primes" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ReverseString" />
+      <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumTriangleFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SumTriangleFromArray" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -137,10 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursiveBubbleSort" />
+        <item itemvalue="Application.LeetCodeFibNums" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.SumTriangleFromArray" />
         <item itemvalue="Application.BinSearch" />
-        <item itemvalue="Application.Primes" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
@@ -166,5 +189,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/ReverseString.java</url>
+          <line>10</line>
+          <properties class="com.company.ReverseString" method="reverseString">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

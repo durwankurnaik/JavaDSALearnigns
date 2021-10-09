@@ -1,12 +1,10 @@
 package com.company;
-
-import java.util.Arrays;
+// This is the worst soln for this problem.
 
 public class ShiftingLetters {
     public static void main(String[] args) {
-        String s = "ruu";
-        int[] shifts = {26, 9, 17};
-
+        String s = "z";
+        int[] shifts = {52};
         System.out.println(shiftingLetters(s, shifts));
     }
 
@@ -21,23 +19,16 @@ public class ShiftingLetters {
             }
         }
         // Just in case if the adding_terms becomes more than 26, to bring them back to 26.
-        for (int i = 0; i < adding_terms.length; i++){
-            if (adding_terms[i] >= 26 && adding_terms[i] < 52) {
-                adding_terms[i] -= 26;
-            }
-            if (adding_terms[i] >= 52 && adding_terms[i] < 78) {
-                adding_terms[i] -= 52;
-            }
-            if (adding_terms[i] >= 78 && adding_terms[i] <= 104) {
-                adding_terms[i] -= 78;
-            }
-            if (sArray[i] + adding_terms[i] > 122) {
-                adding_terms[i] = adding_terms[i] - 122 + sArray[i];
+        // This solution will work for small numbers for adding_terms but wont work for long terms.
+        for (int i = 0; i < adding_terms.length; i++) {
+            int numerical_val = adding_terms[i] / 26;
+            adding_terms[i] -= numerical_val * 26;
+
+            if (sArray[i] + adding_terms[i] > 122 && sArray[i] + adding_terms[i] < 148) {
+                adding_terms[i] = adding_terms[i] + sArray[i] - 122;
                 sArray[i] = 96;
             }
         }
-        // The above checks will fail for number greater than 104 and more on. This needs to be solved using a loop.
-
         // Adding the required numbers to the alphabets.
         for (int i = 0; i < sArray.length; i++) {
             sArray[i] += adding_terms[i];
