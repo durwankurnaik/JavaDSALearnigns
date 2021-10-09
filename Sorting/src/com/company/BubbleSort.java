@@ -11,11 +11,10 @@ public class BubbleSort {
     }
 
     static void bubbleSort(int[] arr) {
-        boolean swapped;
         // The first loop will cycle through the no of elements the array has.
         // To check if every element will be in the right condition or not.
         for (int i = 0; i < arr.length; i++) {
-            swapped = false;
+            boolean swapped = false;
             // Now this loop will sort the element if they are smaller than their previous ones
             for (int j = 1; j < arr.length - i; j++) {
                 if (arr[j] < arr[j - 1]) {
