@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2411b5c6-c3d2-481d-9206-fc584f91529c" name="Changes" comment="After doing some questions.">
+      <change beforePath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ShiftingLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ShiftingLetters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +94,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Recursion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.BasicCalculator">
+  <component name="RunManager" selected="Application.JustTImePass">
     <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.BasicCalculator" />
       <module name="Strings" />
@@ -111,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinLengthofStringAfterDeletingSimilarEnds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MinLengthofStringAfterDeletingSimilarEnds" />
+    <configuration name="JustTImePass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JustTImePass" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SentenceSimilarity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SentenceSimilarity" />
+    <configuration name="JustTimePassOnStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JustTimePassOnStrings" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JustTImePass" />
+        <item itemvalue="Application.JustTimePassOnStrings" />
         <item itemvalue="Application.BasicCalculator" />
         <item itemvalue="Application.ShiftingLettersSoln" />
         <item itemvalue="Application.ShiftingLetters" />
-        <item itemvalue="Application.MinLengthofStringAfterDeletingSimilarEnds" />
-        <item itemvalue="Application.SentenceSimilarity" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +258,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/JustTImePass.java</url>
+          <line>10</line>
+          <properties class="com.company.JustTImePass" method="recPrimes">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
