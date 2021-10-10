@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/CyclicSortRevision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/CyclicSortRevision.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +85,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -215,7 +218,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/company/CyclicSortRevision.java</url>
-          <line>12</line>
+          <line>11</line>
           <properties class="com.company.CyclicSortRevision" method="cyclicSort">
             <option name="EMULATED" value="true" />
           </properties>

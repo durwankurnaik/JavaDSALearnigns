@@ -10,7 +10,7 @@ public class CyclicSortRevision {
     }
 
     static int[] cyclicSort(int[] arr) {
-        // This type of sorting is only applied to arrays which are like (1, n) or (o, n)
+        // This type of sorting is only applied to array's which are like (1, n) or (o, n)
         int i = 0;
         while (i < arr.length) {
             int correctIndex = arr[i] - 1;
