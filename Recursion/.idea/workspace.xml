@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumOfDigitsOfNumRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfDigitsOfNumRec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,9 +88,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Strings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.CyclicSortRevision">
+  <component name="RunManager" selected="Application.SumOfDigitsOfNumRec">
     <configuration name="CyclicSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CyclicSortRevision" />
       <module name="Recursion" />
@@ -116,21 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCodeFibNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.LeetCodeFibNums" />
-      <module name="Recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveBubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.RecursiveBubbleSort" />
+    <configuration name="LengthOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.LengthOfString" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -155,13 +143,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDigitsOfNumRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SumOfDigitsOfNumRec" />
+      <module name="Recursion" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDigitsOfNumRec" />
+        <item itemvalue="Application.LengthOfString" />
         <item itemvalue="Application.CyclicSortRevision" />
         <item itemvalue="Application.InsertionSortRevision" />
         <item itemvalue="Application.SelectionSortRevision" />
-        <item itemvalue="Application.RecursiveBubbleSort" />
-        <item itemvalue="Application.LeetCodeFibNums" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +217,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/LengthOfString.java</url>
+          <line>11</line>
+          <properties class="com.company.LengthOfString" method="lengthOfStrRec">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
