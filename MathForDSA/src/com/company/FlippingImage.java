@@ -1,6 +1,5 @@
 package com.company;
 // https://leetcode.com/problems/flipping-an-image/
-// Some problem occurred in leetcode system, wont take my answer.
 
 import java.util.Arrays;
 
