@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="">
+    <list default="true" id="3fc18378-6dca-48bd-bafe-3ccede87a4ef" name="Changes" comment="Some noice problems solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SumOfDigitsOfNumRec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumOfDigitsOfNumRec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.SumOfDigitsOfNumRec">
+  <component name="RunManager" selected="Application.PrimeOrNot">
     <configuration name="CyclicSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.CyclicSortRevision" />
       <module name="Recursion" />
@@ -130,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SelectionSortRevision" />
+    <configuration name="PrimeOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PrimeOrNot" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeOrNot" />
         <item itemvalue="Application.SumOfDigitsOfNumRec" />
         <item itemvalue="Application.LengthOfString" />
         <item itemvalue="Application.CyclicSortRevision" />
         <item itemvalue="Application.InsertionSortRevision" />
-        <item itemvalue="Application.SelectionSortRevision" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1632832866611</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some noice problems solved">
+      <created>1634310518229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634310518229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +189,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some noice problems solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some noice problems solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
