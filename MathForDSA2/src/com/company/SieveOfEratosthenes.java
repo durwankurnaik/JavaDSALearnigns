@@ -5,10 +5,10 @@ public class SieveOfEratosthenes {
         int num = 40;
         boolean[] primes = new boolean[num + 1];
 
-        seive(num, primes);
+        sieve(num, primes);
     }
 
-    static void seive(int num, boolean[] primes) {
+    static void sieve(int num, boolean[] primes) {
         // Taking a boolean array whose default values are false by default.
         // Now we know that the second and third number is obviously a prime number, so making their multiples true.
         // In this case, true means not a prime and false means a prime.
