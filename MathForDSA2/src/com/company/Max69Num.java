@@ -3,7 +3,7 @@ package com.company;
 
 public class Max69Num {
     public static void main(String[] args) {
-        int num = 9669;
+        int num = 9999;
 
         System.out.println(maximum69Number(num));
     }
