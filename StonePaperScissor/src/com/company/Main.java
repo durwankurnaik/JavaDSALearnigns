@@ -19,7 +19,7 @@ public class Main {
             int comp_inp = compChoice();
 
             if (comp_inp == usr_inp) {
-                System.out.println("Its a tie");;
+                System.out.println("Its a tie");
             }
             // All possible cases where user can win, I don't know more optimized way than this one RN
             else if ((usr_inp == 0 && comp_inp == 2) || (usr_inp == 1 && comp_inp == 0) || (usr_inp == 2 && comp_inp == 1)) {
@@ -31,7 +31,7 @@ public class Main {
             }
         }
 
-        int diff = usr_count > comp_count ? diff = usr_count - comp_count : comp_count - usr_count;
+        int diff = usr_count > comp_count ? usr_count - comp_count : comp_count - usr_count;
         if (usr_count > comp_count) {
             System.out.println("You beat computer by " + diff + " points");
         } else {
