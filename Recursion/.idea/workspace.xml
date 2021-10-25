@@ -89,9 +89,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.PrimeOrNot">
-    <configuration name="CyclicSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.CyclicSortRevision" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RecFunctionToDetermineAandX">
+    <configuration name="PowerOf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PowerOf2" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortRevision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.InsertionSortRevision" />
+    <configuration name="PowerOf3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PowerOf3" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.LengthOfString" />
+    <configuration name="PowerOf4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PowerOf4" />
       <module name="Recursion" />
       <extension name="coverage">
         <pattern>
@@ -142,20 +147,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigitsOfNumRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.SumOfDigitsOfNumRec" />
+    <configuration name="RecFunctionToDetermineAandX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.RecFunctionToDetermineAandX" />
       <module name="Recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecFunctionToDetermineAandX" />
+        <item itemvalue="Application.PowerOf4" />
+        <item itemvalue="Application.PowerOf3" />
+        <item itemvalue="Application.PowerOf2" />
         <item itemvalue="Application.PrimeOrNot" />
-        <item itemvalue="Application.SumOfDigitsOfNumRec" />
-        <item itemvalue="Application.LengthOfString" />
-        <item itemvalue="Application.CyclicSortRevision" />
-        <item itemvalue="Application.InsertionSortRevision" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +262,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/PowerOf2.java</url>
+          <line>8</line>
+          <properties class="com.company.PowerOf2" method="isPowerOfTwo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/company/PowerOf3.java</url>
+          <line>8</line>
+          <properties class="com.company.PowerOf3" method="isPowerOfThree">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
