@@ -49,6 +49,7 @@ public class MergeSortInPlace {
             k++;
         }
 
+        // mix could be also returned, but we want to sort the main array
         for (int z = 0; z < mix.length; z++) {
             arr[s+z] = mix[z];
         }
