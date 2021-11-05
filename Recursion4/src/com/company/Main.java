@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
         String str = "i love apple and I also love to make app";
 
-        System.out.println(skipAppNotApple(str));
+//        System.out.println(skipAppNotApple(str));
+        System.out.println((char)(6 + 48));
     }
 
     static String skip(String str, String ans, int index) {
