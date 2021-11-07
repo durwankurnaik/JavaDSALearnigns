@@ -1,4 +1,4 @@
-package Part2;
+package com.company.Introduction.Part2;
 
 public class Main {
     public static void main(String[] args) {
