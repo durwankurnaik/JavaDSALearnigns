@@ -3,7 +3,7 @@ package com.company.Introduction;
 public class Intro {
     public static void main(String[] args) {
         Students Durwankur = new Students(206, "Durwankur Naik", 88.45f);
-        Students Tulsi = new Students(207, "Harshit Naik", 90.69f);
+        Students Tulsi = new Students(207, "Tulsi Gadekar", 90.69f);
 
         System.out.println(Durwankur.roll_no);
         System.out.println(Durwankur.name);
