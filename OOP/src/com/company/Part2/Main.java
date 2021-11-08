@@ -1,4 +1,4 @@
-package com.company.Introduction.Part2;
+package com.company.Part2;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,6 +9,13 @@ public class Main {
         obj.greetings();
 
         // Also, we cannot use "this" keyword in static methods, since "this" keyword deal with the objects and static are object independent
+
+        Singleton obj1 = Singleton.getInstance();
+
+        Singleton obj2 = Singleton.getInstance();
+
+        Singleton obj3 = Singleton.getInstance();
+
     }
 
     void greetings() {
