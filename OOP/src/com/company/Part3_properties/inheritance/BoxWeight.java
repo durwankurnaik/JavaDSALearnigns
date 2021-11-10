@@ -1,4 +1,4 @@
-package com.company.properties.inheritance;
+package com.company.Part3_properties.inheritance;
 
 public class BoxWeight extends Box {
     double weight;
