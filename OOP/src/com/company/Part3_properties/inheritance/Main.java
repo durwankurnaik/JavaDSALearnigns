@@ -7,7 +7,7 @@ public class Main {
 //        System.out.println(obj1.l + "  " + obj1.w + "  " + obj1.h + "  " + obj1.weight);
 //
 //        Something obj2 = new Something("Durwankur");
-//        obj2.greetings();
+//        obj2.greetings(); Just revising some silly stuff
 
         BoxPrice obj1 = new BoxPrice(6, 3, 7, 10, 100);
         BoxPrice obj2 = new BoxPrice(obj1);
@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(obj1);
         System.out.println(obj2);
-
+        System.out.println(obj3);
         System.out.println(obj4);
 
         System.out.println(obj5);
