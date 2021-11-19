@@ -13,6 +13,7 @@ public class Main {
         BoxPrice obj2 = new BoxPrice(obj1);
         Box obj3 = new Box(5, 3, 7);
         Box obj4 = new BoxPrice(5, 3, 7, 10, 100);
+//        BoxPrice omj = new Box(1, 2, 4); This can't be done
         Box obj5 = new Box(obj2);
 
         System.out.println(obj1);

@@ -3,7 +3,7 @@ package com.company.Part3_properties.inheritance;
 public class BoxPrice extends BoxWeight {
     double price;
 
-    public BoxPrice(double l, double w ,double h, double weight, double price) {
+    BoxPrice(double l, double w ,double h, double weight, double price) {
         super(l, w, h, weight);
         this.price = price;
     }
@@ -12,6 +12,7 @@ public class BoxPrice extends BoxWeight {
         super(other);
         this.price = other.price;
     }
+    // Above two methods(constructor) are example of method overloading
 
     @Override
     public String toString() {

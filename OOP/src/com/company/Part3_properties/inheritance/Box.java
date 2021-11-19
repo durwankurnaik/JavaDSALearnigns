@@ -3,7 +3,7 @@ package com.company.Part3_properties.inheritance;
 public class Box {
     double l, w, h;
 
-    public Box(double l, double w, double h) {
+    Box(double l, double w, double h) {
         this.l = l;
         this.w = w;
         this.h = h;
@@ -14,6 +14,8 @@ public class Box {
         this.w = other.w;
         this.h = other.h;
     }
+    // Above two methods(constructor) are example of method overloading
+    // This is an example of static polymorphism or compile time polymorphism
 
     @Override
     public String toString() {
