@@ -1,5 +1,6 @@
 package com.company.Part6.generics;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -27,5 +28,13 @@ public class Main {
         });
 
         System.out.println(Arrays.toString(list));
+
+        ArrayList<Integer> list2 = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            list2.add(i+1);
+        }
+
+        list2.forEach((item) -> System.out.print(item * 2 + ", "));
     }
 }

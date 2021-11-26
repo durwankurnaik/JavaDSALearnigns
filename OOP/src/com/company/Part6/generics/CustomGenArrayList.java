@@ -1,7 +1,5 @@
 package com.company.Part6.generics;
 
-import java.util.Arrays;
-
 public class CustomGenArrayList<T> {
 
     private Object[] data;
