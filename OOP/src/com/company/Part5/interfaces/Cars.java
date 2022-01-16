@@ -19,7 +19,7 @@ public class Cars implements Engine, Brakes, Sound {
 
     @Override
     public void acc() {
-        System.out.println("I am how the car acclerates");
+        System.out.println("I am how the car accelerates");
     }
 
     public static void main(String[] args) {

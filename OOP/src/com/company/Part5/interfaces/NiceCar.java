@@ -31,4 +31,18 @@ public class NiceCar  {
     public void upgradeEngine() {
         engine = new ElectricEngine();
     }
+
+    public static void main(String[] args) {
+        NiceCar obj = new NiceCar();
+
+        obj.start();
+        obj.stop();
+        obj.acc();
+        obj.startMusic();
+        obj.stopMusic();
+        obj.upgradeEngine();
+        obj.start();
+        obj.stop();
+        obj.acc();
+    }
 }

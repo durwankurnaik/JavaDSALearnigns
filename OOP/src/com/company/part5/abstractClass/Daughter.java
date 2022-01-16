@@ -1,4 +1,4 @@
-package com.company.part5.abstractClass;
+package com.company.Part5.abstractClass;
 
 public class Daughter extends Parent {
 
