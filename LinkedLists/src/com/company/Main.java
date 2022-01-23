@@ -2,52 +2,40 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-//        LL list = new LL();
-//        list.insertFirst(34);
-//        list.insertFirst(23);
-//        list.insertFirst(69);
-//        list.insertFirst(54);
+//        LL list1 = new LL();
+//        list1.insertFirst(34);
+//        list1.insertFirst(23);
+//        list1.insertFirst(69);
+//        list1.insertFirst(54);
 //
-//        list.insertLast(100);
+//        list1.insertLast(100);
 //
-//        list.insert(1, 2);
+//        list1.insert(1, 2);
 //
-//        list.display();
+//        list1.display();
 //
-//        list.deleteLast();
+//        list1.deleteLast();
 //
-//        list.display();
+//        list1.display();
 //
-//        list.delete(2);
+//        list1.delete(2);
 //
-//        list.display();
+//        list1.display();
 
-//        CustomDoublyLinkedList list = new CustomDoublyLinkedList();
-//        list.insertFirst(7);
-//        list.insertFirst(5);
-//        list.insertFirst(1);
-//        list.insertFirst(8);
-//
-//        list.display();
-//
-//        list.insertLast(69);
-//
-//        list.display();
-//
-//        list.insertAfter(7, 1000);
-//
-//        list.display();
+        CustomDoublyLinkedList list1 = new CustomDoublyLinkedList();
+        list1.insertFirst(7);
+        list1.insertFirst(5);
+        list1.insertFirst(1);
+        list1.insertFirst(8);
 
-        CustomCircularLinkedList list = new CustomCircularLinkedList();
-        list.insert(7);
-        list.insert(5);
-        list.insert(1);
-        list.insert(8);
+        list1.display();
 
-        list.display();
+        list1.insertLast(69);
 
-        list.delete(8);
+        list1.display();
 
-        list.display();
+        list1.insertAfter(7, 1000);
+
+        list1.display();
     }
 }

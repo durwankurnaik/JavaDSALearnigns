@@ -58,6 +58,20 @@ public class CustomLinkedList {
         size += 1;
     }
 
+    public void insertRec(int value, int index) {
+        head = insertRec(value, index, head);
+    }
+
+    private Node insertRec(int value, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(value, node);
+            size++;
+            return temp;
+        }
+        node.next = insertRec(value, index-1, node.next);
+        return node;
+    }
+
     public void deleteFirst() {
         head = head.next;
 
@@ -135,5 +149,89 @@ public class CustomLinkedList {
             this.value = value;
             this.next = next;
         }
+    }
+
+    // Merging of two sorted lists
+    public static CustomLinkedList merge(CustomLinkedList first, CustomLinkedList second) {
+        Node f = first.head;
+        Node s = second.head;
+
+        CustomLinkedList ans = new CustomLinkedList();
+
+        while (f != null && s != null) {
+            if (f.value < s.value) {
+                ans.insertLast(f.value);
+                f = f.next;
+            } else {
+                ans.insertLast(s.value);
+                s = s.next;
+            }
+        }
+
+        // Whichever list is remaining, that will get added up in the ans list.
+        while (f != null) {
+            ans.insertLast(f.value);
+            f = f.next;
+        }
+        while (s != null) {
+            ans.insertLast(s.value);
+            s = s.next;
+        }
+        return ans;
+    }
+
+    // https://leetcode.com/problems/linked-list-cycle
+    public static boolean hasCycle(Node head) {
+        Node fast = head;
+        Node slow = head;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Find length of the cycle
+    public static int cycleLength(Node head) {
+        Node fast = head;
+        Node slow = head;
+        int count = 0;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) {
+                do {
+                    slow = slow.next;
+                    count++;
+                } while (slow == fast);
+                return count;
+            }
+        }
+        return 0;
+    }
+
+    public static void main(String[] args) {
+        CustomLinkedList first = new CustomLinkedList();
+        CustomLinkedList second = new CustomLinkedList();
+
+        first.insertLast(1);
+        first.insertLast(2);
+        first.insertLast(5);
+
+        second.insertLast(1);
+        second.insertLast(1);
+        second.insertLast(9);
+        second.insertLast(14);
+
+        CustomLinkedList ans = CustomLinkedList.merge(first, second);
+
+        ans.display();
     }
 }
