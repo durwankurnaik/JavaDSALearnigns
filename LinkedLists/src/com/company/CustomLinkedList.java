@@ -137,9 +137,11 @@ public class CustomLinkedList {
         System.out.println("END");
     }
 
-    private class Node {
-        private int value;
-        private Node next;
+    static class Node {
+        int value;
+        Node next;
+
+        public Node() {}
 
         public Node(int value) {
             this.value = value;
@@ -217,6 +219,157 @@ public class CustomLinkedList {
         return 0;
     }
 
+    // https://leetcode.com/problems/linked-list-cycle-ii
+    public Node detectCycle(Node head) {
+        int length = 0;
+
+        Node fast = head;
+        Node slow = head;
+        int count = 0;
+
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) {
+                length = cycleLength(slow);
+                break;
+            }
+        }
+
+        if (length == 0) {
+            return null;
+        }
+
+        // Find the start node
+        Node f = head;
+        Node s = head;
+
+        while (length > 0) {
+            s = s.next;
+            length--;
+        }
+
+        // Keep moving both forward, and they will meet at the cycle start
+        while (f != s) {
+            f = f.next;
+            s = s.next;
+        }
+        return s;
+    }
+
+    // https://leetcode.com/problems/happy-number
+    public boolean isHappy(int n) {
+        int slow = n;
+        int fast = n;
+        // Both, slow and fast are starting from the given number
+
+        do {
+            slow = findSquare(slow); // This moves the slow pointer by one
+            fast = findSquare(findSquare(fast)); // This moves the fast pointer by two
+        } while (fast != slow); // It will break once the fast and slow pointer becomes the same
+
+        return slow == 1; // The required answer
+    }
+    public int findSquare(int n) {
+        int temp = n;
+        int ans = 0;
+
+        while (temp != 0) {
+            int rem = temp % 10;
+            ans += rem * rem;
+            temp /= 10;
+        }
+        return ans;
+    }
+
+    // https://leetcode.com/problems/middle-of-the-linked-list
+    public Node middleNode(Node head) {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    public void bubbleSort() {
+        bubbleSort(size - 1, 0);
+    }
+
+    public void bubbleSort(int row, int col) {
+        if (row == 0) {
+            return;
+        }
+        if (col < row) {
+            Node first = get(col);
+            Node second = get(col + 1);
+
+            if (first.value > second.value) {
+                // Swap
+                if (first == head) {
+                    head = second;
+                    first.next = second.next;
+                    second.next = first;
+                } else if (second == tail) {
+                    Node prev = get(col - 1);
+                    prev.next = second;
+                    second.next = first;
+                    tail = first;
+                    first.next = null;
+                } else {
+                    Node prev = get(col - 1);
+                    prev.next = second;
+                    first.next = second.next;
+                    second.next = first;
+                }
+            }
+            bubbleSort(row, col + 1);
+        } else {
+            bubbleSort(row - 1, 0);
+        }
+    }
+
+    // Recursion Reverse
+    public void recursionReverse(Node node) {
+        if (node == tail) {
+            head = tail;
+            return;
+        }
+
+        recursionReverse(node.next);
+
+        tail = node;
+        tail.next = null;
+    }
+
+    // In place reversal
+    // https://leetcode.com/problems/reverse-linked-list
+    public Node reverseList(Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node prev = null;
+        Node pres = head;
+        Node next = pres.next;
+
+        while (pres != null) {
+            pres.next = prev;
+
+            prev = pres;
+            pres = next;
+            if (next != null) {
+                next = next.next;
+            }
+        }
+        head = prev;
+
+        return head;
+    }
+
     public static void main(String[] args) {
         CustomLinkedList first = new CustomLinkedList();
         CustomLinkedList second = new CustomLinkedList();
@@ -231,6 +384,17 @@ public class CustomLinkedList {
         second.insertLast(14);
 
         CustomLinkedList ans = CustomLinkedList.merge(first, second);
+
+        ans.insertLast(8);
+        ans.insertLast(2);
+        ans.insertLast(0);
+        ans.insertLast(4);
+        ans.insertLast(69);
+        ans.insertLast(7);
+
+        ans.display();
+
+        ans.bubbleSort();
 
         ans.display();
     }
