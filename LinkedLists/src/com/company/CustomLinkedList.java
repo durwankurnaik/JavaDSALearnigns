@@ -553,6 +553,38 @@ public class CustomLinkedList {
         return head;
     }
 
+    // https://leetcode.com/problems/rotate-list/
+    public Node rotateRight(Node head, int k) {
+        if (k <= 0 || head == null || head.next == null) {
+            return head;
+        }
+        Node prev = null, pres = head;
+        int elemsToMove = k % length(head);
+
+        for (int i = 0; i < elemsToMove; i++) {
+            while (true) {
+                if (pres.next == null) {
+                    pres.next = head;
+                    head = pres;
+                    prev.next = null;
+                    break;
+                }
+                prev = pres;
+                pres = pres.next;
+            }
+        }
+        return head;
+    }
+
+    public int length(Node head) {
+        int counter = 0;
+        while (head != null) {
+            counter++;
+            head = head.next;
+        }
+        return counter;
+    }
+
     public static void main(String[] args) {
         CustomLinkedList first = new CustomLinkedList();
         CustomLinkedList second = new CustomLinkedList();
