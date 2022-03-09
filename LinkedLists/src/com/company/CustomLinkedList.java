@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class CustomLinkedList {
     private Node head;
     private Node tail;
@@ -341,6 +343,7 @@ public class CustomLinkedList {
 
         recursionReverse(node.next);
 
+        tail.next = node;
         tail = node;
         tail.next = null;
     }
@@ -367,6 +370,186 @@ public class CustomLinkedList {
         }
         head = prev;
 
+        return head;
+    }
+
+    // reverse a linked list part 2 (reversing sub-linkedlist) (https://leetcode.com/problems/reverse-linked-list-ii/)
+    public Node reverseBetween(Node head, int left, int right) {
+        if (left == right) {
+            return head;
+        }
+
+        // skip the first left-1 nodes
+        Node pres = head, prev = null;
+
+        for (int i = 0; pres != null && i < left - 1; i++) {
+            prev = pres;
+            pres = pres.next;
+        }
+
+        Node last = prev, newEnd = pres;
+
+        // reverse between left and right
+        Node next = pres.next;
+        for (int i = 0; pres != null && i < right - left + 1; i++) {
+            pres.next = prev;
+            prev = pres;
+            pres = next;
+            if (next != null) {
+                next = next.next;
+            }
+        }
+
+        if (last != null) {
+            last.next = prev;
+        } else {
+            head = prev;
+        }
+        newEnd.next = pres;
+
+        return head;
+    }
+
+    // palindrome of a string (https://leetcode.com/problems/palindrome-linked-list/)
+    public boolean isPalindrome(Node head) {
+        Node mid = middleNode(head);
+        Node headSecond = reverseList(mid);
+        Node rereverseHead = headSecond;
+
+        // compare both halves
+        while (headSecond != null) {
+            if (head.value != headSecond.value) {
+                break;
+            }
+            head = head.next;
+            headSecond = headSecond.next;
+        }
+        reverseList(rereverseHead); // no need to re-reverse the linked list since it is not asked in the question.
+
+        return head == null || headSecond == null;
+    }
+
+    // https://leetcode.com/problems/reorder-list/ - reorder list
+    public void reorderList(Node head) {
+        if (head == null || head.next == null) {
+            return;
+        }
+        Node mid = middleNode(head);
+        Node hf = head;
+        Node hs = reverseList(mid);
+
+        // rearranging now
+        while (hf != null && hs != null) {
+            Node temp = hf.next;
+            hf.next = hs;
+            hf = temp;
+
+            temp = hs.next;
+            hs.next = hf;
+            hs = temp;
+        }
+        // Setting next of tail to null
+        if (hf != null) {
+            hf.next = null;
+        }
+    }
+
+    public int remainingElem(Node head) {
+        int count = 0;
+        while (head != null) {
+            count++;
+            head = head.next;
+        }
+        return count;
+    }
+
+    // https://leetcode.com/problems/reverse-nodes-in-k-group/
+    public Node reverseKGroup(Node head, int k) {
+        if (k <= 1 || head == null || head.next == null) {
+            return head;
+        }
+
+        // skip the first left-1 nodes
+        Node pres = head, prev = null;
+
+        while (true) {
+            Node last = prev, newEnd = pres, next = pres.next;
+
+            if (remainingElem(pres) < k) {
+                break;
+            }
+            for (int i = 0; pres != null && i < k; i++) {
+                pres.next = prev;
+                prev = pres;
+                pres = next;
+                if (next != null) {
+                    next = next.next;
+                }
+            }
+
+            if (last != null) {
+                last.next = prev;
+            } else {
+                head = prev;
+            }
+            newEnd.next = pres;
+             if (pres == null) {
+                 break;
+             }
+             prev = newEnd;
+        }
+        return head;
+    }
+
+    // https://www.geeksforgeeks.org/reverse-alternate-k-nodes-in-a-singly-linked-list/ - same as the above one but just not to reverse the alternate elements
+    public Node reverseKGroupAlternate(Node head, int k) {
+        if (k <= 1 || head == null || head.next == null) {
+            return head;
+        }
+
+        // skip the first left-1 nodes
+        Node pres = head, prev = null;
+        int ansCounter = 0;
+
+        while (true) {
+            Node last = prev, newEnd = pres, next = Objects.requireNonNull(pres).next; // objects.requirenonnull is suggested by intellij idea nd its normally written as pres.next
+
+            if (remainingElem(pres) < k) {
+                break;
+            }
+            if (ansCounter % 2 != 0) {
+                ansCounter++;
+                for (int i = 0; i < k; i++) {
+                    prev = pres;
+                    pres = next;
+                    if (next != null) {
+                        next = next.next;
+                    }
+                }
+                continue;
+            }
+            for (int i = 0; pres != null && i < k; i++) {
+                pres.next = prev;
+                prev = pres;
+                pres = next;
+                if (next != null) {
+                    next = next.next;
+                }
+            }
+
+            ansCounter++; // counts the number of times the loop runs so to skip the alternate block of elements as per in GFG
+
+            if (last != null) {
+                last.next = prev;
+            } else {
+                head = prev;
+            }
+            newEnd.next = pres;
+            if (pres == null) {
+                break;
+            }
+            prev = newEnd;
+        }
         return head;
     }
 
