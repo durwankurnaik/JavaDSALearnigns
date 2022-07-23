@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="080190c6-03d0-43a7-93f6-749212782489" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/CodeChef TryToCode Comp/CodeChef TryToCode Comp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Complexities/Complexities.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedLists/LinkedLists.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MathForDSA/MathForDSA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NormalQuestions/NormalQuestions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns/Patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/Recursion.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion1/Recursion1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion2-Arrays/Recursion2-Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion3/Recursion3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion4/Recursion4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Searching/Searching.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/Sorting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StacksNQueues/StacksNQueues.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StonePaperScissor/StonePaperScissor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings/Strings.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BtOZpMiGEl7qlhqjX4w2i3qBHh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="080190c6-03d0-43a7-93f6-749212782489" name="Changes" comment="" />
+      <created>1657721980553</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657721980553</updated>
+      <workItem from="1657721982444" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
