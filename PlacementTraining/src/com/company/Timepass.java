@@ -2,19 +2,25 @@ package com.company;
 
 public class Timepass {
     public static void main(String[] args) {
-        int[] arr = {10, 15, 3, 7};
+        String[] str = {"flower", "flower", "flower", "flower"};
 
-        System.out.println(isSum(arr, 18));
+        System.out.println(longestCommonPrefix(str));
     }
 
-    public static boolean isSum(int[] nums, int val) {
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == val) {
-                    return true;
+    public static String longestCommonPrefix(String[] strs) {
+        StringBuilder str = new StringBuilder("");
+        String query = strs[0];
+
+        for (int i = 0; i < strs[0].length(); i++) {
+            str.append(strs[0].charAt(i));
+
+            for (String s : strs) {
+                if (!s.startsWith(str.toString())) {
+                    return str.deleteCharAt(str.length() - 1).toString();
                 }
             }
         }
-        return false;
+
+        return str.toString();
     }
 }
