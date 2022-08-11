@@ -18,7 +18,7 @@ public class Main {
             temp_ans[0] = arr[j];
 
             while(j < arr.length - 1 && arr[j] + 1 == arr[j + 1]) {
-                curr_count++;
+                    curr_count++;
                 j++;
             }
 
